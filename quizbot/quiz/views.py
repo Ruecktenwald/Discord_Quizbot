@@ -2,8 +2,8 @@ from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.views import Response
 from .models import Question
-from .serializer import RandomQuestionSerializer
-# Create your views here.
+from .serializers import RandomQuestionSerializer
+
 
 class RandomQuestion(APIView):
 
